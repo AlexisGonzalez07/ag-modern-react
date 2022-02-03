@@ -3,7 +3,7 @@ import { NavBarContainer } from "./NavElements";
 export const NavBar = () => {
   return (
     <NavBarContainer>
-      <h1>Hello</h1>
+      <h1 style={{color:'white'}}>Hello</h1>
     </NavBarContainer>
   );
 };
