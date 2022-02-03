@@ -9,10 +9,10 @@ export const DropdownNav = () => {
                 <CloseIcon/>
             </Nav>
                 <List>
-                    <Link>1</Link>
-                    <Link>1</Link>
-                    <Link>1</Link>
-                    <Link>1</Link>
+                    <Link>Home</Link>
+                    <Link>About Me</Link>
+                    <Link>Work</Link>
+                    <Link>Resume</Link>
                 </List>
         </DropdownWrapper>
     )
