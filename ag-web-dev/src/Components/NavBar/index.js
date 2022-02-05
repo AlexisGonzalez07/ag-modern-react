@@ -1,5 +1,6 @@
 import React from "react";
-import { Nav,NavBarContainer,NavLogo, NavMenu, NavLink,ResumeWrapper, ResumeBtn } from "./NavElements";
+import {MdMenu} from 'react-icons/md'
+import { Nav,NavBarContainer,NavLogo, NavMenu, NavLink,ResumeWrapper, ResumeBtn, NavIconBox } from "./NavElements";
 export const NavBar = () => {
   return (
     <Nav>
@@ -19,7 +20,9 @@ export const NavBar = () => {
       <ResumeWrapper>
         <ResumeBtn>Resume</ResumeBtn>
       </ResumeWrapper>
-      {/* <NavMenuIcon/> */}
+      <NavIconBox>
+        <MdMenu/>
+      </NavIconBox>
     </NavBarContainer>
     </Nav>
   );

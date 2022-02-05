@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import {MdMenu} from 'react-icons/md'
 export const Nav = styled.nav`
 background: #000;
 position: fixed;
@@ -19,10 +19,11 @@ display: flex;
 justify-content: space-between;
 flex-direction: row;
 flex-wrap: nowrap; 
-max-width: 1200px; 
+width: 1300px;
+// width: minmax(1200px, 100%); 
 height: 80px;
 text-align: center;
-padding: 0 20px;
+padding: 0 25px;
 
 @media screen and (max-width: 960px) {
     transition: 400ms all ease;
@@ -52,15 +53,36 @@ display: show;
 export const NavLink =styled.a`
 text-decoration: none;
 color: white;
-padding: 10px`
+cursor: pointer;
+padding: 20px`
 
 export const ResumeWrapper = styled.div`
 justify-content: flex-end;
-line-height: 80px
+line-height: 80px;
+@media screen and (max-width: 960px){
+    display: none;
+}
 `
 
 export const ResumeBtn = styled.button`
 background: none;
 padding: 0 0;
 margin: 0 0;
-color: white;`
+color: white;
+cursor: pointer;
+`
+
+export const NavIconBox = styled.div `
+display: none;
+
+@media screen and (max-width: 960px){
+    display: block;
+    line-height: 80px; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    padding-right: 30px;
+    font-size: 30px;
+    cursor: pointer
+}`
