@@ -54,7 +54,12 @@ export const NavLink =styled.a`
 text-decoration: none;
 color: white;
 cursor: pointer;
-padding: 20px`
+padding: 20px;
+
+& .active {
+    border-bottom: 2px solid white;
+}
+`
 
 export const ResumeWrapper = styled.div`
 justify-content: flex-end;
