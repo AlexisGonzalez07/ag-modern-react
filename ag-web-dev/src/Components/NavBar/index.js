@@ -1,9 +1,26 @@
 import React from "react";
-import { NavBarContainer } from "./NavElements";
+import { Nav,NavBarContainer,NavLogo, NavMenu, NavLink,ResumeWrapper, ResumeBtn } from "./NavElements";
 export const NavBar = () => {
   return (
+    <Nav>
     <NavBarContainer>
-      <h1 style={{color:'white'}}>Hello</h1>
+      <NavLogo>Ag FullStack</NavLogo>
+      <NavMenu>
+        <NavLink>
+          Brand
+        </NavLink>
+        <NavLink>
+          About Me
+        </NavLink>
+        <NavLink>
+          Projects
+        </NavLink>
+      </NavMenu>
+      <ResumeWrapper>
+        <ResumeBtn>Resume</ResumeBtn>
+      </ResumeWrapper>
+      {/* <NavMenuIcon/> */}
     </NavBarContainer>
+    </Nav>
   );
 };

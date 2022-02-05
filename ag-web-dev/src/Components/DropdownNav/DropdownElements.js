@@ -27,7 +27,7 @@ export const Nav = styled.div`
   grid-area: nav;
   background: gray;
   justify-content: center;
-  text-align: center;
+  // text-align: center;
   // padding: 30px
 `
 
@@ -52,3 +52,4 @@ export const Link = styled.p`
   padding: 30px;
   font-size: 24px
 `
+
