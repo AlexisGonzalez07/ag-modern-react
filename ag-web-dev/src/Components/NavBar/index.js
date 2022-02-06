@@ -7,13 +7,13 @@ export const NavBar = () => {
     <NavBarContainer>
       <NavLogo>Ag FullStack</NavLogo>
       <NavMenu>
-        <NavLink>
+        <NavLink to='brand'>
           Brand
         </NavLink>
-        <NavLink>
+        <NavLink to='about'>
           About Me
         </NavLink>
-        <NavLink>
+        <NavLink to='projects'>
           Projects
         </NavLink>
       </NavMenu>
