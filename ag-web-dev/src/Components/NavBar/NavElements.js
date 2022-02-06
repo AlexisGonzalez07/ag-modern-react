@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 import {MdMenu} from 'react-icons/md'
+import {Link} from 'react-router-dom'
+
 export const Nav = styled.nav`
 background: #000;
 position: fixed;
@@ -50,9 +52,10 @@ display: show;
 
 `
 
-export const NavLink =styled.a`
+export const NavLink =styled(Link)`
 text-decoration: none;
 color: white;
+display: flex;
 cursor: pointer;
 padding: 20px;
 
