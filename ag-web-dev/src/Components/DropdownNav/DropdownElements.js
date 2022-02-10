@@ -2,6 +2,9 @@ import styled from "styled-components";
 import {Link} from 'react-router-dom'
 
 export const DropdownWrapper = styled.div`
+@media screen and (max-width: 960px) {
+  transition: 400ms all ease;
+  width: 100%;
   background: black;
   position: fixed;
   top: 0;
@@ -22,7 +25,8 @@ export const DropdownWrapper = styled.div`
   ". . . .";
   opacity: 96%;
   z-index: 999;
-`
+}
+  `
 
 export const Nav = styled.div`
   grid-area: nav;
