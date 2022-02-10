@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Link} from 'react-router-dom'
 
 export const DropdownWrapper = styled.div`
   background: black;
@@ -46,10 +47,11 @@ export const List = styled.div`
   grid-gap: 10px;
 `
 
-export const Link = styled.p`
-  color: white;
-//   background: gray;
-  padding: 30px;
-  font-size: 24px
+export const DropDownLink = styled(Link)`
+text-decoration: none;
+color: white;
+display: flex;
+padding: 30px;
+font-size: 24px
 `
 

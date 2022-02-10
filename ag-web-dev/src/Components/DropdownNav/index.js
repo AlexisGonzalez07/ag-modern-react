@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import { DropdownWrapper, Nav, CloseIcon, List, Link } from "./DropdownElements"
+import { DropdownWrapper, Nav, CloseIcon, List, DropDownLink } from "./DropdownElements"
 
 export const DropdownNav = () => {
 
@@ -9,10 +9,10 @@ export const DropdownNav = () => {
                 <CloseIcon/>
             </Nav>
                 <List>
-                    <Link>Home</Link>
-                    <Link>About Me</Link>
-                    <Link>Work</Link>
-                    <Link>Resume</Link>
+                <DropDownLink to="/">About Me</DropDownLink>
+                <DropDownLink to="/">Work</DropDownLink>
+                <DropDownLink to="/">Resume</DropDownLink>
+                <DropDownLink to="/">Home</DropDownLink>
                 </List>
         </DropdownWrapper>
     )

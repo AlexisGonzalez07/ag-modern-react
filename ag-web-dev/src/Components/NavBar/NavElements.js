@@ -44,7 +44,7 @@ display: flex;
 export const NavMenu =styled.div`
 justify-content: center;
 line-height: 80px;
-display: show;
+display: flex;
 
 @media screen and (max-width: 960px){
     display: none;
@@ -57,7 +57,9 @@ text-decoration: none;
 color: white;
 display: flex;
 cursor: pointer;
-padding: 20px;
+padding: 0 30px;
+margin: 0 0;
+line-height: 80px;
 
 & .active {
     border-bottom: 2px solid white;
