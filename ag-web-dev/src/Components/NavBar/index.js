@@ -5,16 +5,16 @@ export const NavBar = ({toggle}) => {
   return (
     <Nav>
     <NavBarContainer>
-      <NavLogo>Ag FullStack</NavLogo>
+      <NavLogo to='/'>Ag FullStack</NavLogo>
       <NavMenu>
-        <NavLink to='brand'>
-          Brand
+        <NavLink to='/Home'>
+          Home
         </NavLink>
-        <NavLink to='about'>
+        <NavLink to='/AboutMe'>
           About Me
         </NavLink>
-        <NavLink to='projects'>
-          Projects
+        <NavLink to='/Work'>
+          Work
         </NavLink>
       </NavMenu>
       <ResumeWrapper>

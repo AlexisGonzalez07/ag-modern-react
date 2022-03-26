@@ -50,24 +50,28 @@ cursor: pointer
 `
 
 export const List = styled.div`
+display: none; 
+@media screen and (max-width: 960px){ 
   grid-area: list;
-//   background: red;
+  //   background: red;
   justify-content: center;
   // padding: 30px;
   display: grid;
   grid-gap: 10px;
-`
+  text-align: center;
+}
+  `
 
 export const DropDownLink = styled(Link)`
-text-decoration: none;
-color: white;
-display: flex;
-padding: 30px;
-font-size: 24px;
-
-&:hover {
-  color: blue;
-  transition: 200 ease-in-out;
-}
+  text-decoration: none;
+  color: white;
+  display: flex;
+  padding: 30px;
+  font-size: 24px;
+  
+  &:hover {
+    color: blue;
+    transition: 200 ease-in-out;
+  }
 `
 
