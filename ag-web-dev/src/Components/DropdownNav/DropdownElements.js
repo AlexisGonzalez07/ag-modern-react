@@ -7,7 +7,7 @@ export const DropdownWrapper = styled.div`
   width: 100%;
   background: black;
   position: fixed;
-  top: 0;
+  top: ${({ isOpen })=> (isOpen ? '0' : '-100%')};
   left: 0;
   width: 100%;
   height: 100%;
@@ -23,7 +23,7 @@ export const DropdownWrapper = styled.div`
   ". list list ."
   ". list list ."
   ". . . .";
-  opacity: 96%;
+  opacity: ${({ isOpen })=> (isOpen ? '100%' : '0')};
   z-index: 999;
 }
   `
@@ -56,6 +56,11 @@ text-decoration: none;
 color: white;
 display: flex;
 padding: 30px;
-font-size: 24px
+font-size: 24px;
+
+&:hover {
+  color: blue;
+  transition: 200 ease-in-out;
+}
 `
 
