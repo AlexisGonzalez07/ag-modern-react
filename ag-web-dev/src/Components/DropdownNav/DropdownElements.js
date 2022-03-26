@@ -17,7 +17,6 @@ export const DropdownWrapper = styled.div`
   grid-auto-rows: minmax(100px, auto);
   // grid-gap: 10px;
   grid-template-areas:
-  ". . . nav"
   ". . . ."
   ". list list ."
   ". list list ."
@@ -29,17 +28,25 @@ export const DropdownWrapper = styled.div`
   `
 
 export const Nav = styled.div`
-  grid-area: nav;
-  background: gray;
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
   justify-content: center;
-  // text-align: center;
-  // padding: 30px
+  text-align: center;
+  padding: 15px;
+  color: white;
 `
 
 export const CloseIcon = styled.button`
-  padding: 0;
-  margin: 0;
-  font-size: 24px;
+display: block;
+line-height: 80px; 
+position: absolute;
+top: 0;
+right: 0;
+color: white;
+padding: 30px;
+font-size: 100px;
+cursor: pointer
 `
 
 export const List = styled.div`
