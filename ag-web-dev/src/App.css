@@ -8,3 +8,12 @@ html {
   box-sizing: border-box;
   text-align: center;
 }
+
+#video {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* -o-object-fit: cover; */
+}

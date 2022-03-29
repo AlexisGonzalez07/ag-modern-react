@@ -5,7 +5,9 @@ export const DropdownWrapper = styled.div`
 @media screen and (max-width: 960px) {
   transition: 400ms all ease;
   width: 100%;
-  background: black;
+  background-color: #7f5a83;
+background-image: linear-gradient(315deg, #7f5a83 0%, #26226F 50%);
+
   position: fixed;
   top: ${({ isOpen })=> (isOpen ? '0' : '-100%')};
   left: 0;
