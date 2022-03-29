@@ -31,7 +31,7 @@ export const VideoBackground = styled.div`
 //   background: black;
 `;
 
-export const HeroSection = styled.div`
+export const TextSection = styled.div`
   position: absolute;
   display: flex;
   max-width: 1300px;

@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 import {DropdownNav} from '../Components/DropdownNav/index'
 import {NavBar} from '../Components/NavBar'
-import { MainSection } from "../Components/MainSection";
+import { HeroSection } from "../Components/HeroSection";
+import {ProjectSection} from '../Components/ProjectSection'
 
 export const Home = () => {
         const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,8 @@ export const Home = () => {
     <>
       <DropdownNav isOpen={isOpen} toggle={toggle}/>
       <NavBar toggle={toggle} />
-      <MainSection/>
+      <HeroSection/>
+      <ProjectSection/>
     </>
   );
 };
