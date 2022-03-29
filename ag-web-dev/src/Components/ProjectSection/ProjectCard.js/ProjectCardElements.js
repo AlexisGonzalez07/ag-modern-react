@@ -3,21 +3,22 @@ import styled from "styled-components";
 export const Card = styled.div`
 display: flex;
 flex-direction: row;
-max-width: 1400px;
+max-width: 1200px;
 min-width: 800px;
 height: auto;
 justify-content: center;
 align-items: center;
 padding: 8px;
 background-color: #923cb5;
-background-image: linear-gradient(to right, #5B3EA1, #26226F,#04001E);
+background-image: linear-gradient(to right, #04001E, #26226F 25%,#04001E);
 border-radius: 20px;
+margin-top: 15px;
 `
 
 export const ImageWrapper = styled.div`
 display: flex;
-width: auto;
-min-width: 30%;
+min-width: 35%;
+max-width: 35%;
 padding: 5px;
 margin-right: 5px;
 border-radius: 8px;
@@ -31,7 +32,7 @@ export const Image =styled.img`
 width: 100%;
 margin: 0;
 padding-right:0;
-border-radius: 2px;`
+border-radius: 10px;`
 
 export const DescriptionWrapper = styled.div`
 display: flex;
