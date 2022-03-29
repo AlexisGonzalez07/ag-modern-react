@@ -13,7 +13,7 @@ flex-wrap: nowrap;
 width: 100%; 
 height: 80px;
 text-align: center;
-z-index: 999
+z-index: 998
 `
 
 export const NavBarContainer = styled.div`
