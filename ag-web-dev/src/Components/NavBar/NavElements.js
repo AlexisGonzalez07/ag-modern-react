@@ -76,10 +76,15 @@ line-height: 80px;
 
 export const ResumeBtn = styled.button`
 background: none;
-padding: 0 0;
+padding: 4px 8px;
 margin: 0 0;
 color: white;
+border: 2px solid white;
+border-radius: 3px;
 cursor: pointer;
+:hover{
+    border: 3px dotted white;
+}
 `
 
 export const NavIconBox = styled.div `

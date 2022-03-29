@@ -36,14 +36,14 @@ border-radius: 10px;`
 
 export const DescriptionWrapper = styled.div`
 display: flex;
-width: 100%;
+width: 65%;
 padding: 5px;
 border-radius: 8px;
 height: 100%;
 min-height:150px;
-// background: blue;
 justify-content: center;
-align-items: center`
+align-items: center;
+flex-direction: column`
 
 export const BulletList = styled.ul`
 text-align: left;
@@ -57,5 +57,12 @@ text-align: left;
 list-style-type: disc;
 color: white;
 font-size: 18px;
-margin-top: px;
+margin-top: 1px;
+`
+
+export const ButtonWrapper = styled.div`
+justify-content: space-evenly;
+align-items: center;
+width: 80%;
+display: flex;
 `
