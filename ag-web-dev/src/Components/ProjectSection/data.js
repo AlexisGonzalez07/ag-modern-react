@@ -34,7 +34,7 @@ export const cardTwoInfo = {
 
 export const cardThreeInfo = {
   title: "Retail Therapy",
-  description: "HTML, Javascript, API, Local Storage",
+  description: "HTML, Javascript, API",
   bulletone:
     "A retail platform that allows users to search Amazon Products using Rapid API",
   bullettwo:

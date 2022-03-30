@@ -15,5 +15,11 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* -o-object-fit: cover; */
+}
+
+  /* Large smartphones */
+@media screen and (max-width: 768px) {
+  .noshow {
+    display: none;
+  }
 }
