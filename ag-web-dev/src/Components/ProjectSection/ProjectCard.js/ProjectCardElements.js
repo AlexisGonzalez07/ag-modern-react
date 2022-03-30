@@ -59,13 +59,13 @@ export const OverlayDescription = styled.div`
 
   /* Large smartphones */
   @media screen and (max-width: 768px) {
-    display: none
+   font-size: 10px;
   }
 
   /* Small smartphones */
   @media screen and (max-width: 576px) {
-    display: none
-  }
+    font-size: 10px;
+}
 `;
 
 export const OverlayTitle = styled.div`
@@ -94,15 +94,12 @@ export const OverlayTitle = styled.div`
   @media screen and (max-width: 768px) {
     font-size: 20px;
     letter-spacing: .1px;
-    // position: relative;
 }
 
   /* Small smartphones */
   @media screen and (max-width: 576px) {
     font-size: 20px;
     letter-spacing: .1px;
-    // position: relative;
-
   }
 `;
 
@@ -137,7 +134,7 @@ export const ImageWrapper = styled.div`
 
   /* Small smartphones */
   @media screen and (max-width: 576px) {
-    width: 60%;
+    width: 75%;
   }
 
 `;
@@ -169,7 +166,7 @@ export const DescriptionWrapper = styled.div`
 
   /* Small smartphones */
   @media screen and (max-width: 576px) {
-    width: 60%;
+    width: 80%;
   }
 
 `;
