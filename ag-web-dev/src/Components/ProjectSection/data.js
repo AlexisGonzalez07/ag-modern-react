@@ -1,5 +1,5 @@
 export const cardOneInfo = {
-  title: "Plant-Buddy",
+  title: "Plant Buddy",
   description: "React, MongoDB, GraphQL",
   bulletone:
     "A social platform for plant lovers that allows users to write blog posts and upkeep plant health built on the MERN stack",
@@ -16,7 +16,7 @@ export const cardOneInfo = {
 };
 
 export const cardTwoInfo = {
-  title: "Express-Gym",
+  title: "Express Gym",
   description: "Handlebars, MySQL, Express.js",
   bulletone:
     "A fitness platform that allows users to create accounts, login/logout, upgrade memberships, and book classes ",
@@ -50,14 +50,14 @@ export const cardThreeInfo = {
 };
 
 export const cardFourInfo = {
-  title: "Note-Taker App",
+  title: "Note Taker App",
   description: "Handlebars, Heroku, CSS",
-  bulletone: "TBD",
-  bullettwo: "TBD",
-  bulletthree: "TBD",
-  bulletfour: "TBD",
+  bulletone: "An app made for users looking to keep track of pending tasks, store notes and important information, or improve his/her/their organization",
+  bullettwo: "Given some starter code, I was tasked with connecting the front-end application with my back-end server using Express.js",
+  bulletthree: "Configured my Express.js app to handle GET, POST, and DELETE requests and serve static files",
+  bulletfour: "Code structure modified to follow modular routing practices to facilitate future development by improving the code's readability and reducing its complexity",
   img: require("../../Gifs/NoteTakerApp.gif"),
-  alt: "Looping gif of Express-Gym website",
+  alt: "Looping gif of Note Taker App website",
   website: "https://notatakingapplication.herokuapp.com/",
   repo: "https://github.com/AlexisGonzalez07/NoteTakingFullStackApplication",
 };

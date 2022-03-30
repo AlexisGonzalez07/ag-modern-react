@@ -6,7 +6,7 @@ export const NavBar = ({toggle}) => {
   return (
     <Nav>
     <NavBarContainer>
-      <NavLogo to='/'>Ag FullStack</NavLogo>
+      <NavLogo to='/'>AG FullStack</NavLogo>
       <NavMenu>
         <NavLink to='/Home'>
           Home
