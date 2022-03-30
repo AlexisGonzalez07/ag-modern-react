@@ -1,11 +1,16 @@
 import React from 'react'
-
-const InfoSection = () => {
+import { SectionWrapper, SectionContainer } from './InfoElements'
+import { sectionOne,sectionTwo,sectionThree,sectionFour } from './data'
+import { SingleSection } from './singleSection'
+export const InfoSection = () => {
   return (
-    <InfoWrapper>
-        <
-    </InfoWrapper>
+    <SectionWrapper>
+        <SectionContainer>
+          <SingleSection {...sectionOne}/>
+          <SingleSection {...sectionTwo}/>
+          <SingleSection {...sectionThree}/>
+          <SingleSection {...sectionFour}/>
+        </SectionContainer>
+    </SectionWrapper>
   )
 }
-
-export default InfoSection
