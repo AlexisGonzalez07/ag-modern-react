@@ -3,10 +3,10 @@ import Video from "../../Videos/shortvideo.mp4";
 import {
   MainContainer,
   MainBackground,
-  VideoBackground,
   TextSection,
   HeroH1,
   HeroP,
+  HeroSubP
 } from "./HeroElements";
 export const HeroSection = () => {
   return (
@@ -15,11 +15,11 @@ export const HeroSection = () => {
           <video autoPlay loop muted id='video'>
               <source src={Video} type='video/mp4'/>
           </video>
-        {/* <VideoBackground autoPlay loop muted src={Video} type="video/mp4" /> */}
       </MainBackground>
       <TextSection>
         <HeroH1>Alex Gonzalez</HeroH1>
         <HeroP>React Software Developer</HeroP>
+        <HeroSubP>With a touch of Business Analytics, Data Modeling, Supply Chain, and Finance</HeroSubP>
       </TextSection>
     </MainContainer>
   );

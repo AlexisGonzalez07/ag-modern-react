@@ -63,6 +63,7 @@ export const HeroP = styled.p`
   font-size: 24px;
   align-items: center;
   color: white;
+  margin-bottom: 7px;
 
   @media screen and (max-width: 768px) {
     font-size: 24px;
@@ -71,3 +72,18 @@ export const HeroP = styled.p`
     font-size: 16px;
   }
 `;
+
+export const HeroSubP = styled.p`
+  font-size: 15px;
+  align-items: center;
+  color: white;
+  margin-left: 5px;
+  max-width: 70%;
+
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+`

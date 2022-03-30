@@ -51,7 +51,7 @@ export const cardThreeInfo = {
 
 export const cardFourInfo = {
   title: "Note Taker App",
-  description: "Handlebars, Heroku, CSS",
+  description: "Handlebars, RESTful API, CSS",
   bulletone: "An app made for users looking to keep track of pending tasks, store notes and important information, or improve his/her/their organization",
   bullettwo: "Given some starter code, I was tasked with connecting the front-end application with my back-end server using Express.js",
   bulletthree: "Configured my Express.js app to handle GET, POST, and DELETE requests and serve static files",

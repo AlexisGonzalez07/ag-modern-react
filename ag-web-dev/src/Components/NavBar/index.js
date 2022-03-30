@@ -6,16 +6,19 @@ export const NavBar = ({toggle}) => {
   return (
     <Nav>
     <NavBarContainer>
-      <NavLogo to='/'>AG FullStack</NavLogo>
+      <NavLogo to='/Home'>AG FullStack</NavLogo>
       <NavMenu>
-        <NavLink to='/Home'>
-          Home
-        </NavLink>
         <NavLink to='/AboutMe'>
           About Me
         </NavLink>
-        <NavLink to='/Work'>
-          Work
+        <NavLink to='/Education'>
+          Education
+        </NavLink>
+        <NavLink to='/Projects'>
+          Coding Projects
+        </NavLink>
+        <NavLink to='/Business'>
+          Business School
         </NavLink>
       </NavMenu>
       <ResumeWrapper>

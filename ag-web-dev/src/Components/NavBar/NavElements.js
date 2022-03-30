@@ -22,12 +22,11 @@ justify-content: space-between;
 flex-direction: row;
 flex-wrap: nowrap; 
 width: 1300px;
-// width: minmax(1200px, 100%); 
 height: 80px;
 text-align: center;
 padding: 0 25px;
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 992px) {
     transition: 400ms all ease;
     width: 100%;
 }
@@ -46,7 +45,7 @@ justify-content: center;
 line-height: 80px;
 display: flex;
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 992px) {
     display: none;
 }
 
@@ -69,7 +68,7 @@ line-height: 80px;
 export const ResumeWrapper = styled.div`
 justify-content: flex-end;
 line-height: 80px;
-@media screen and (max-width: 960px){
+@media screen and (max-width: 992px) {
     display: none;
 }
 `
@@ -90,7 +89,7 @@ cursor: pointer;
 export const NavIconBox = styled.div `
 display: none;
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 992px) {
     display: block;
     line-height: 80px; 
     position: absolute;
