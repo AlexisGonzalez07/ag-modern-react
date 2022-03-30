@@ -11,7 +11,7 @@ export const DropdownNav = ({ isOpen, toggle }) => {
   return (
     <DropdownWrapper isOpen={isOpen} onClick={toggle}>
       <Nav onClick={toggle}>
-        <MdCloseFullscreen />
+        <MdCloseFullscreen  onClick={toggle}/>
       </Nav>
       <List>
         <DropDownLink to="/Home" onClick={toggle}>

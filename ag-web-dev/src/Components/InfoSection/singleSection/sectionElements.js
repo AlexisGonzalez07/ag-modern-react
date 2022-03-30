@@ -4,7 +4,7 @@ export const LocalGrid = styled.div`
   display: grid;
   color: white;
   min-height: 500px;
-  min-width: 1000px;
+  width: 100%;
   max-width: 1200px;
   background-color: #923cb5;
   background-image: ${({ svgfirst }) =>
@@ -34,14 +34,28 @@ export const HeaderSection = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 80%;
+  width: 100%;
+
+  /* Tablets*/
+  @media screen and (max-width: 992px) {
+    width: 100%;
+  }
+
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    max-width: 500px;
+  }
+
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+  }
 `;
 export const ContentSection = styled.div`
   grid-area: content;
   justify-content: center;
   display: flex;
   text-align: center;
-  width: 80%;
+  width: 100%;
 `;
 
 export const ImageDiv = styled.div`
@@ -64,13 +78,59 @@ export const Img = styled.img`
 `;
 
 export const MainTitle = styled.h1`
-  font-size: 30px;
+  font-size: 36px;
   align-items: center;
+
+  /* Small laptops*/
+  @media screen and (max-width: 1100px) {
+    font-size: 32px;
+  }
+
+  /* Tablets*/
+  @media screen and (max-width: 992px) {
+    font-size: 30px;
+  }
+
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    font-size: 28px;
+    letter-spacing: .1px;
+  }
+
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+    font-size: 28px;
+    letter-spacing: .1px;
+  }
 `;
 
 export const SubTitle = styled.h2`
+font-size: 26px;
+align-items: center;
+letter-spacing: .1px;
+line-height: 1.4;
+
+/* Small laptops*/
+@media screen and (max-width: 1100px) {
+  font-size: 23px;
+}
+
+/* Tablets*/
+@media screen and (max-width: 992px) {
+  font-size: 22px;
+}
+
+/* Large smartphones */
+@media screen and (max-width: 768px) {
   font-size: 20px;
-  align-items: center;
+  letter-spacing: .1px;
+}
+
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+  font-size: 20px;
+  letter-spacing: .1px;
+}
 `;
 export const ContentWrapper = styled.div`
   display: flex;
@@ -84,6 +144,35 @@ export const ContentWrapper = styled.div`
 `;
 
 export const Content = styled.p`
-  font-size: 15px;
+  font-size: 18px;
   align-items: center;
+
+  /* Small laptops*/
+  @media screen and (max-width: 1100px) {
+    font-size: 16px;
+  }
+
+  /* Tablets*/
+  @media screen and (max-width: 992px) {
+    font-size: 14px;
+    letter-spacing: .1px;
+    line-height: 1.4;
+  }
+
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    letter-spacing: .1px;
+    line-height: 1.4;
+
+  }
+
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+    font-size: 12px;
+    letter-spacing: .1px;
+    line-height: 1.4;
+
+  }
+
 `;

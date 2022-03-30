@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const DropdownWrapper = styled.div`
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 992px) {
     transition: 400ms all ease;
     width: 100%;
     background-color: #7f5a83;
@@ -53,7 +53,7 @@ export const CloseIcon = styled.button`
 
 export const List = styled.div`
   display: none;
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 992px) {
     grid-area: list;
     //   background: red;
     justify-content: center;

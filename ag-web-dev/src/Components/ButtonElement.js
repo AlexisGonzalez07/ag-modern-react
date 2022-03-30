@@ -18,6 +18,8 @@ cursor: pointer;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    border: 3px dotted white;
+    border: 3px solid #B8AAB9;
+    color: #B8AAB9;
+    transition: 200 ease-in-out;
   }
 `

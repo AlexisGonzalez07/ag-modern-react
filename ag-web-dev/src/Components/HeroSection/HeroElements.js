@@ -49,7 +49,9 @@ export const HeroH1 = styled.h1`
   font-size: 48px;
   align-items: center;
   color: white;
-  margin-bottom: 20px;
+  letter-spacing: .1px;
+  line-height: 1.4;
+
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
@@ -64,6 +66,9 @@ export const HeroP = styled.p`
   align-items: center;
   color: white;
   margin-bottom: 7px;
+  letter-spacing: .1px;
+  line-height: 1.4;
+
 
   @media screen and (max-width: 768px) {
     font-size: 24px;
@@ -79,6 +84,8 @@ export const HeroSubP = styled.p`
   color: white;
   margin-left: 5px;
   max-width: 70%;
+  letter-spacing: .1px;
+  line-height: 1.4;
 
   @media screen and (max-width: 768px) {
     font-size: 20px;

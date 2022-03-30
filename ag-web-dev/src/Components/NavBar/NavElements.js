@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {MdMenu} from 'react-icons/md'
+// import {MdMenu} from 'react-icons/md'
 import {Link} from 'react-router-dom'
 
 export const Nav = styled.nav`
@@ -38,6 +38,11 @@ color: white;
 line-height: 80px;
 cursor: pointer;
 display: flex;
+
+:hover{
+    color: #B8AAB9;
+    transition: 200 ease-in-out;
+}
 `
 
 export const NavMenu =styled.div`
@@ -82,7 +87,7 @@ border: 2px solid white;
 border-radius: 3px;
 cursor: pointer;
 :hover{
-    border: 3px dotted white;
+    border: 3px solid #B8AAB9;
 }
 `
 
@@ -99,4 +104,8 @@ display: none;
     padding-right: 30px;
     font-size: 30px;
     cursor: pointer
+    :hover{
+        color: #B8AAB9;
+        transition: 200 ease-in-out;
+    }
 }`

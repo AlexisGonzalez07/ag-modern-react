@@ -22,10 +22,19 @@ export const SectionContainer = styled.div`
   grid-template-columns: repeat(1);
   grid-gap: 20px;
 
-  /* Tablets and below*/
-  //   @media screen and (max-width: 992px) {
-  //     height: 600px;
-  //   }
+  /* Tablets*/
+  @media screen and (max-width: 992px) {
+    max-width: 740px;
+  }
+
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    max-width: 500px;
+  }
+
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+  }
 `;
 
 //   /* Small laptops*/

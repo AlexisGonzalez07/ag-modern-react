@@ -193,18 +193,24 @@ export const BulletPoint = styled.li`
   /* Tablets*/
   @media screen and (max-width: 992px) {
     font-size: 14px;
+    line-height: 1.4;
+
   }
 
   /* Large smartphones */
   @media screen and (max-width: 768px) {
     font-size: 14px;
     letter-spacing: .1px;
+    line-height: 1.4;
+
   }
 
   /* Small smartphones */
   @media screen and (max-width: 576px) {
     font-size: 12px;
     letter-spacing: .1px;
+    line-height: 1.4;
+
   }
 `;
 
