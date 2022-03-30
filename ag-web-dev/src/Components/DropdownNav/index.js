@@ -20,12 +20,16 @@ export const DropdownNav = ({ isOpen, toggle }) => {
         <DropDownLink to="/AboutMe" onClick={toggle}>
           About Me
         </DropDownLink>
-        <DropDownLink to="/Work" onClick={toggle}>
-          Work
+        <DropDownLink to="/Education" onClick={toggle}>
+          Education
         </DropDownLink>
-        <DropDownLink to="/" onClick={toggle}>
-          Resume
+        <DropDownLink to="/Projects" onClick={toggle}>
+          Coding Projects
         </DropDownLink>
+        <DropDownLink to="/Business" onClick={toggle}>
+          Business School
+        </DropDownLink>
+
       </List>
     </DropdownWrapper>
   );
