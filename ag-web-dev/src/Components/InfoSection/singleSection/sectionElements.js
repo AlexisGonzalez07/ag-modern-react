@@ -13,11 +13,16 @@ export const LocalGrid = styled.div`
       : "linear-gradient(to right, #04001e, #26226f 25%, #04001e)"};
   grid-template-areas: ${({ svgfirst }) =>
     svgfirst
-      ? `"svg svg  header header header header" "svg svg content content content content"`
+      ? `"svg svg header header header header" "svg svg content content content content"`
       : `"header header header header svg svg" "content content content content svg svg"`};
   grid-template-columns: repeat (6, 1fr);
   grid-template-rows: repeat (6, 1fr);
-`;
+
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+grid-template-areas: "header header header header header header"". svg svg svg svg .""content content content content content content"
+  }
+`
 
 export const ImageSection = styled.div`
   grid-area: svg;
@@ -26,6 +31,13 @@ export const ImageSection = styled.div`
   justify-content: center;
   display: flex;
   text-align: center;
+
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+   max-height: 150px;
+   padding: 10px;
+  }
+
 `;
 
 export const HeaderSection = styled.div`
@@ -80,6 +92,7 @@ export const Img = styled.img`
 export const MainTitle = styled.h1`
   font-size: 36px;
   align-items: center;
+  margin-top: 20px;
 
   /* Small laptops*/
   @media screen and (max-width: 1100px) {
@@ -93,12 +106,6 @@ export const MainTitle = styled.h1`
 
   /* Large smartphones */
   @media screen and (max-width: 768px) {
-    font-size: 28px;
-    letter-spacing: .1px;
-  }
-
-  /* Small smartphones */
-  @media screen and (max-width: 576px) {
     font-size: 28px;
     letter-spacing: .1px;
   }
@@ -136,7 +143,6 @@ export const ContentWrapper = styled.div`
   display: flex;
   width: 75%;
   padding: 5px;
-  border-radius: 8px;
   height: 100%;
   min-height: 100px;
   justify-content: center;
@@ -146,6 +152,7 @@ export const ContentWrapper = styled.div`
 export const Content = styled.p`
   font-size: 18px;
   align-items: center;
+  margin-bottom: 20px;
 
   /* Small laptops*/
   @media screen and (max-width: 1100px) {

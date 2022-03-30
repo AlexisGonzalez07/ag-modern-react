@@ -51,6 +51,7 @@ export const HeroH1 = styled.h1`
   color: white;
   letter-spacing: .1px;
   line-height: 1.4;
+  text-transform: uppercase;
 
 
   @media screen and (max-width: 768px) {
@@ -74,7 +75,7 @@ export const HeroP = styled.p`
     font-size: 24px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 16px;
+    font-size: 20px;
   }
 `;
 
