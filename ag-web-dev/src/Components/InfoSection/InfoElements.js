@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const SectionWrapper = styled.div`
 background-color: #923cb5;
-background-image: linear-gradient(to right, #04001e, #26226f 25%, #04001e);
+background-image: linear-gradient(to left, #080808,#222222,#080808);
   width: 100%;
   height: auto;
   justify-content: center;
   align-items: center;
-  padding: 20px 10px;
-
+  padding: 20px 15px;
+  display: flex;
 `;
 
 export const SectionContainer = styled.div`
@@ -16,10 +16,11 @@ export const SectionContainer = styled.div`
   width: 100%;
   max-width: 1300px;
   height: auto;
+  margin: 10px 0;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(2, 50%);
-grid-template-rows: repeat(2,50%)
+  grid-template-columns: repeat(1);
+  grid-gap: 20px;
 
   /* Tablets and below*/
   //   @media screen and (max-width: 992px) {

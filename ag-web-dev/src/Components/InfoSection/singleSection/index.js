@@ -1,5 +1,5 @@
 import React from "react";
-import { LocalGrid, Column1, Column2, Column3 } from "./sectionElements";
+import { LocalGrid, ImageSection, HeaderSection, ContentSection, ImageDiv, Img, MainTitle, SubTitle, ContentWrapper, Content } from "./sectionElements";
 
 export const SingleSection = ({
   id,
@@ -12,20 +12,20 @@ export const SingleSection = ({
 }) => {
   return (
     <LocalGrid id={id} svgfirst={svgfirst}>
-      <Column1>
+      <ImageSection>
         <ImageDiv>
-          <Svg src={src} alt={alt} />
+          <Img src={src} alt={alt} />
         </ImageDiv>
-      </Column1>
-      <Column2>
+      </ImageSection>
+      <HeaderSection>
         <MainTitle>{header}</MainTitle>
         <SubTitle>{subtitle}</SubTitle>
-      </Column2>
-      <Column3>
+      </HeaderSection>
+      <ContentSection>
       <ContentWrapper>
         <Content>{content}</Content>
       </ContentWrapper>
-      </Column3>
+      </ContentSection>
     </LocalGrid>
   );
 };
