@@ -36,25 +36,3 @@ export const SectionContainer = styled.div`
   @media screen and (max-width: 576px) {
   }
 `;
-
-//   /* Small laptops*/
-//   @media screen and (max-width: 1100px) {
-//     font-size: 16px;
-//     max-width: 960px;
-//   }
-
-//   /* Tablets*/
-//   @media screen and (max-width: 992px) {
-//     font-size: 14px;
-//     max-width: 740px;
-//   }
-
-//   /* Large smartphones */
-//   @media screen and (max-width: 768px) {
-//     width: 70%;
-//   }
-
-//   /* Small smartphones */
-//   @media screen and (max-width: 576px) {
-//     width: 75%;
-//   }
