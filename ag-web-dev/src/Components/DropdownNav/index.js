@@ -26,10 +26,6 @@ export const DropdownNav = ({ isOpen, toggle }) => {
         <DropDownLink to="/Projects" onClick={toggle}>
           Coding Projects
         </DropDownLink>
-        <DropDownLink to="/Business" onClick={toggle}>
-          Business School
-        </DropDownLink>
-
       </List>
     </DropdownWrapper>
   );

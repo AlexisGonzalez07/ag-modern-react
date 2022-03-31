@@ -68,6 +68,11 @@ line-height: 80px;
 & .active {
     border-bottom: 2px solid white;
 }
+:hover{
+    color: #B8AAB9;
+    transition: 200 ease-in-out;
+}
+
 `
 
 export const ResumeWrapper = styled.div`

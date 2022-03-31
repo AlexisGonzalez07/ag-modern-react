@@ -16,9 +16,6 @@ export const NavBar = ({toggle}) => {
         <NavLink to='/Projects'>
           Coding Projects
         </NavLink>
-        <NavLink to='/Business'>
-          Business School
-        </NavLink>
       </NavMenu>
       <ResumeWrapper>
         <ResumeBtn>Resume</ResumeBtn>

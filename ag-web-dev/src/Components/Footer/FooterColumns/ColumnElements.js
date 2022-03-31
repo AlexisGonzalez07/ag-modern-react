@@ -9,7 +9,17 @@ min-height: 200px;
 width: 100%;
 justify-content: center;
 align-items: center;
-border-right: ${({position}) => position==='third' ? 'none': '1px solid white'}
+border-right: ${({position}) => position==='third' ? 'none': '1px solid white'};
+/* Tablets*/
+@media screen and (max-width: 992px) {
+  min-height: 130px;
+}
+
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+  min-height: 100px;
+
+}
 `
 
 export const IconHolder = styled.div`
