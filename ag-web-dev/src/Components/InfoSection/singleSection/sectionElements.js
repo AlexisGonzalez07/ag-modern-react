@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const LocalGrid = styled.div`
   display: grid;
   color: white;
-  min-height: 500px;
+  height: 100%;
+  min-height: 400px;
   width: 100%;
   max-width: 1200px;
   background-color: #923cb5;
@@ -18,10 +19,26 @@ export const LocalGrid = styled.div`
   grid-template-columns: repeat (6, 1fr);
   grid-template-rows: repeat (6, 1fr);
 
+
+  /* Small laptops*/
+  @media screen and (max-width: 1100px) {
+min-height: 300px;
+  }
+
+  /* Tablets*/
+  @media screen and (max-width: 992px) {
+  }
+
   /* Large smartphones */
   @media screen and (max-width: 768px) {
-grid-template-areas: "header header header header header header"". svg svg svg svg .""content content content content content content"
+    @media screen and (max-width: 768px) {
+      grid-template-areas: "header header header header header header"". svg svg svg svg .""content content content content content content"
+        }
+
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
   }
+
 `
 
 export const ImageSection = styled.div`
