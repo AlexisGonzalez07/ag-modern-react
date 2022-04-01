@@ -7,18 +7,21 @@ export const Card = styled.div`
   height: auto;
   justify-content: center;
   align-items: center;
-  padding: 8px;
+  padding: 0px 30px;
   background-color: #923cb5;
   background-image: linear-gradient(to right, #04001e, #26226f 25%, #04001e);
   border-radius: 20px;
   margin-top: 15px;
   position: relative;
+  min-height: 300px;
 
 
   /* Tablets*/
   @media screen and (max-width: 992px) {
     font-size: 14px;
     max-width: 740px;
+    min-height: 275px;
+
   }
 
   /* Large smartphones */
@@ -26,6 +29,8 @@ export const Card = styled.div`
     font-size: 14px;
     flex-direction: column;
     max-width: 500px;
+    padding: 20px 30px;
+
   }
 
   /* Small smartphones */
@@ -76,8 +81,8 @@ export const OverlayTitle = styled.div`
   background: none;
   z-index: 10;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 15px;
+  left: 15px;
   color: white;
 
   /* Small laptops*/
@@ -183,7 +188,8 @@ export const BulletPoint = styled.li`
   list-style-type: disc;
   color: white;
   font-size: 18px;
-  margin-top: 1px;
+  margin-top: 4px;
+  line-height: 1.4;
 
   /* Small laptops*/
   @media screen and (max-width: 1100px) {
@@ -219,26 +225,28 @@ export const ButtonWrapper = styled.div`
   align-items: center;
   width: 80%;
   display: flex;
+  font-size: 20px;
+
 
   /* Small laptops*/
   @media screen and (max-width: 1100px) {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   /* Tablets*/
   @media screen and (max-width: 992px) {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   /* Large smartphones */
   @media screen and (max-width: 768px) {
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: .1px;
   }
 
   /* Small smartphones */
   @media screen and (max-width: 576px) {
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: .1px;
   }
 `;

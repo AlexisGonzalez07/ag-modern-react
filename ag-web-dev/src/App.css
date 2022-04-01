@@ -17,6 +17,12 @@ html {
   object-fit: cover;
 }
 
+  /* Tablets*/
+  @media screen and (max-width: 992px) {
+.earlynoshow{
+  display: none;
+}  }
+
   /* Large smartphones */
 @media screen and (max-width: 768px) {
   .noshow {

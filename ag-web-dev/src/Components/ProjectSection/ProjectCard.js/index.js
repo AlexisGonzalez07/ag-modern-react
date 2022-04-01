@@ -14,7 +14,7 @@ export const ProjectCard = ({img,title,description, bulletone,bullettwo,bulletth
         <BulletList>
             <BulletPoint>{bulletone}</BulletPoint>
             <BulletPoint>{bullettwo}</BulletPoint>
-            <BulletPoint className='noshow'>{bulletthree}</BulletPoint>
+            <BulletPoint className='noshow earlynoshow'>{bulletthree}</BulletPoint>
             <BulletPoint className='noshow'>{bulletfour}</BulletPoint>
         </BulletList>
         <ButtonWrapper>
