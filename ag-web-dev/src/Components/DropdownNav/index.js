@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import {
   DropdownWrapper,
   Nav,
-  CloseIcon,
   List,
   DropDownLink,
 } from "./DropdownElements";
@@ -14,16 +13,16 @@ export const DropdownNav = ({ isOpen, toggle }) => {
         <MdCloseFullscreen  onClick={toggle}/>
       </Nav>
       <List>
-        <DropDownLink to="/Home" onClick={toggle}>
+        <DropDownLink to="/" onClick={toggle}>
           Home
         </DropDownLink>
-        <DropDownLink to="/AboutMe" onClick={toggle}>
+        <DropDownLink to="aboutme" onClick={toggle}>
           About Me
         </DropDownLink>
-        <DropDownLink to="/Education" onClick={toggle}>
+        <DropDownLink to="education" onClick={toggle}>
           Education
         </DropDownLink>
-        <DropDownLink to="/Projects" onClick={toggle}>
+        <DropDownLink to="projects" onClick={toggle}>
           Coding Projects
         </DropDownLink>
       </List>

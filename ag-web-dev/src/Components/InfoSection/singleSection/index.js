@@ -2,13 +2,13 @@ import React from "react";
 import { LocalGrid, ImageSection, HeaderSection, ContentSection, ImageDiv, Img, MainTitle, SubTitle, ContentWrapper, Content } from "./sectionElements";
 
 export const SingleSection = ({
-  id,
   src,
   alt,
   header,
   subtitle,
   content,
   svgfirst,
+  id
 }) => {
   return (
     <LocalGrid id={id} svgfirst={svgfirst}>

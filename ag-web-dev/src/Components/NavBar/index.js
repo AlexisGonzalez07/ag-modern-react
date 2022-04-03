@@ -1,19 +1,25 @@
 import React from "react";
 import {MdMenu} from 'react-icons/md'
+import {animateScroll as scroll} from 'react-scroll'
 import { Nav,NavBarContainer,NavLogo, NavMenu, NavLink,ResumeWrapper, ResumeBtn, NavIconBox } from "./NavElements";
+
 export const NavBar = ({toggle}) => {
+const toggleHome =() => {
+  scroll.scrollToTop();
+}
+
   return (
     <Nav>
     <NavBarContainer>
-      <NavLogo to='/Home'>AG FullStack</NavLogo>
+      <NavLogo to='/' onClick={toggleHome}>AG FullStack</NavLogo>
       <NavMenu>
-        <NavLink to='/AboutMe'>
+        <NavLink to='aboutme' >
           About Me
         </NavLink>
-        <NavLink to='/Education'>
+        <NavLink to='education'>
           Education
         </NavLink>
-        <NavLink to='/Projects'>
+        <NavLink to='projects'>
           Coding Projects
         </NavLink>
       </NavMenu>

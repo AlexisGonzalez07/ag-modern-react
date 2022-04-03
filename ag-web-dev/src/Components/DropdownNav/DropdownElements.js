@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { Link as LinkScroll } from "react-scroll";
 
 export const DropdownWrapper = styled.div`
   @media screen and (max-width: 992px) {
@@ -64,12 +64,13 @@ export const List = styled.div`
   }
 `;
 
-export const DropDownLink = styled(Link)`
+export const DropDownLink = styled(LinkScroll)`
   text-decoration: none;
   color: white;
   display: inline-block;
   padding: 30px;
   font-size: 24px;
+  transition: 200 ease-in-out;
 
 
 

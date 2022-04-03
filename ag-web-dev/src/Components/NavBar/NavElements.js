@@ -1,9 +1,8 @@
 import styled from 'styled-components'
-// import {MdMenu} from 'react-icons/md'
-import {Link} from 'react-router-dom'
+import {Link as LinkScroll} from 'react-scroll'
 
 export const Nav = styled.nav`
-background: #000;
+background-image: linear-gradient(to left, #080808,#222222,#080808);
 position: fixed;
 top: 0; 
 display: flex;
@@ -56,17 +55,19 @@ display: flex;
 
 `
 
-export const NavLink =styled(Link)`
+export const NavLink =styled(LinkScroll)`
 text-decoration: none;
 color: white;
 display: flex;
 cursor: pointer;
+align-items: center;
 padding: 0 30px;
+height: 100%;
 margin: 0 0;
-line-height: 80px;
+// line-height: 80px;
 
 & .active {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #B8AAB9;
 }
 :hover{
     color: #B8AAB9;

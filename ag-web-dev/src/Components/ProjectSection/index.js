@@ -4,7 +4,7 @@ import { ProjectCard } from "./ProjectCard.js";
 import { cardOneInfo, cardTwoInfo, cardThreeInfo, cardFourInfo } from "./data";
 export const ProjectSection = () => {
   return (
-    <ProjectWrapper>
+    <ProjectWrapper id="projects">
       <ProjectCard {...cardOneInfo}/>
       <ProjectCard {...cardTwoInfo}/>
       <ProjectCard {...cardThreeInfo}/>

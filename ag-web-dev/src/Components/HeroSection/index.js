@@ -10,7 +10,7 @@ import {
 } from "./HeroElements";
 export const HeroSection = () => {
   return (
-    <MainContainer>
+    <MainContainer id='Welcome'>
       <MainBackground>
           <video autoPlay loop muted id='video'>
               <source src={Video} type='video/mp4'/>
