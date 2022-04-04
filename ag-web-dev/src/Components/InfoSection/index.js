@@ -4,7 +4,7 @@ import { sectionOne,sectionTwo } from './data'
 import { SingleSection } from './BlockElements'
 export const InfoSection = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id='aboutme'>
         <SectionContainer>
           <SectionHeaderWrap>
           <SectionHeader>About Me</SectionHeader>

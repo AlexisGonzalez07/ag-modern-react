@@ -8,10 +8,9 @@ export const SingleSection = ({
   subtitle,
   content,
   svgfirst,
-  id
 }) => {
   return (
-    <LocalGrid id={id} svgfirst={svgfirst}>
+    <LocalGrid svgfirst={svgfirst}>
       <ImageSection>
         <ImageDiv>
           <Img src={src} alt={alt} />

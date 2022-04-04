@@ -4,7 +4,7 @@ import { partOne, partTwo } from './data'
 import { SingleSection } from './BlockElements'
 export const EducationSection = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id='education'>
         <SectionContainer>
           <SectionHeaderWrap>
           <SectionHeader>Education</SectionHeader>

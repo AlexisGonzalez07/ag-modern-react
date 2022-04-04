@@ -1,5 +1,4 @@
 export const sectionOne = {
-  id: "aboutme",
   src: require("../../Svgs/aboutme.svg").default,
   alt: "Caption",
   header: "Who Am I?",
@@ -10,7 +9,6 @@ export const sectionOne = {
 };
 
 export const sectionTwo = {
-  id: "aboutmetwo",
   src: require("../../Svgs/careergoals.svg").default,
   alt: "Caption",
   header: "Career Aspirations",

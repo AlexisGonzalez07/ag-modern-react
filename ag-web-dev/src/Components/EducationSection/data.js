@@ -1,5 +1,5 @@
 export const partOne = {
-    id: "education",
+    // id: "education",
     src: require("../../Svgs/bootcamp.svg").default,
     alt: "Caption",
     header: "Full Stack Coding Bootcamp",
@@ -9,7 +9,7 @@ export const partOne = {
   };
   
   export const partTwo = {
-    id: "educationtwo",
+    // id: "educationtwo",
     src: require("../../Svgs/businessschool.svg").default,
     alt: "Caption",
     header: "McCombs School of Business",

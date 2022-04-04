@@ -41,16 +41,17 @@ export const SectionHeaderWrap = styled.div`
 display: flex;
 // width: 100%;
 max-width: 1300px;
-margin-left: 5px;
+margin-right: 5px;
 padding: 10px;
 border-bottom: 2px solid white;
+justify-content: end;
 `
 export const SectionHeader = styled.h1`
 display: flex;
 width: auto;
 height: auto;
 margin: 10px 0;
-align-items: left;
+align-items: right;
 color: white;
 font-size: 40px;
 
