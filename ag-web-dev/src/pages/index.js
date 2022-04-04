@@ -4,6 +4,7 @@ import {NavBar} from '../Components/NavBar'
 import { HeroSection } from "../Components/HeroSection";
 import {ProjectSection} from '../Components/ProjectSection'
 import { InfoSection } from "../Components/InfoSection";
+import { EducationSection } from "../Components/EducationSection";
 import { Footer } from "../Components/Footer";
 
 export const Home = () => {
@@ -18,6 +19,7 @@ export const Home = () => {
       <NavBar toggle={toggle} />
       <HeroSection/>
       <InfoSection/>
+      <EducationSection/>
       <ProjectSection/>
       <Footer/>
     </>

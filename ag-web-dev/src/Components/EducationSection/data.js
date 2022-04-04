@@ -1,4 +1,4 @@
-export const sectionThree = {
+export const partOne = {
     id: "education",
     src: require("../../Svgs/bootcamp.svg").default,
     alt: "Caption",
@@ -8,7 +8,7 @@ export const sectionThree = {
     svgfirst: true,
   };
   
-  export const sectionFour = {
+  export const partTwo = {
     id: "educationtwo",
     src: require("../../Svgs/businessschool.svg").default,
     alt: "Caption",
