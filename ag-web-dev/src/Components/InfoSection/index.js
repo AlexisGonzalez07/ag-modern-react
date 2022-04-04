@@ -1,15 +1,16 @@
 import React from 'react'
-import { SectionWrapper, SectionContainer } from './InfoElements'
-import { sectionOne,sectionTwo,sectionThree,sectionFour } from './data'
-import { SingleSection } from './singleSection'
+import { SectionWrapper, SectionContainer, SectionHeader,SectionHeaderWrap } from './AboutElements'
+import { sectionOne,sectionTwo } from './data'
+import { SingleSection } from './BlockElements'
 export const InfoSection = () => {
   return (
     <SectionWrapper>
         <SectionContainer>
+          <SectionHeaderWrap>
+          <SectionHeader>About Me</SectionHeader>
+          </SectionHeaderWrap>
           <SingleSection {...sectionOne}/>
           <SingleSection {...sectionTwo}/>
-          <SingleSection {...sectionThree}/>
-          <SingleSection {...sectionFour}/>
         </SectionContainer>
     </SectionWrapper>
   )

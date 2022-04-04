@@ -1,5 +1,5 @@
 import React from "react";
-import { LocalGrid, ImageSection, HeaderSection, ContentSection, ImageDiv, Img, MainTitle, SubTitle, ContentWrapper, Content } from "./sectionElements";
+import { LocalGrid, ImageSection, HeaderSection, ContentSection, ImageDiv, Img, MainTitle, SubTitle, ContentWrapper, Content } from "./blockElements";
 
 export const SingleSection = ({
   src,

@@ -10,7 +10,9 @@ export const ProjectCard = ({img,title,description, bulletone,bullettwo,bulletth
         <OverlayTitle>{title}</OverlayTitle>
     </ImageWrapper>
     <DescriptionWrapper>
-
+        {/* <CardTitle>{title}</CardTitle>
+        <CardSubtitle>Technologies: {description}</CardSubtitle>
+        <DescriptionText>{bulletone}</DescriptionText> */}
         <BulletList>
             <BulletPoint>{bulletone}</BulletPoint>
             <BulletPoint>{bullettwo}</BulletPoint>

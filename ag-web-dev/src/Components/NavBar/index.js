@@ -11,7 +11,7 @@ const toggleHome =() => {
   return (
     <Nav>
     <NavBarContainer>
-      <NavLogo to='/' onClick={toggleHome}>AG FullStack</NavLogo>
+      <NavLogo onClick={toggleHome}>AG FullStack</NavLogo>
       <NavMenu>
         <NavLink to='aboutme' >
           About Me
