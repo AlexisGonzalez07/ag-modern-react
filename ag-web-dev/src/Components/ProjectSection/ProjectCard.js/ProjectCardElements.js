@@ -149,7 +149,7 @@ export const Image = styled.img`
   margin: 0;
   padding-right: 0;
   border-radius: 10px;
-  opacity: 60%;
+  opacity: 100%;
   display: flex;
 `;
 
@@ -172,6 +172,120 @@ export const DescriptionWrapper = styled.div`
   /* Small smartphones */
   @media screen and (max-width: 576px) {
     width: 80%;
+  }
+
+`;
+
+export const HeaderSection = styled.div`
+  grid-area: header;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  line-height: 1.4;
+
+
+  /* Tablets*/
+  @media screen and (max-width: 992px) {
+    width: 100%;
+  }
+
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    max-width: 500px;
+  }
+
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+  }
+`;
+export const MainTitle = styled.h1`
+  font-size: 36px;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+  line-height: 1.4;
+
+  /* Small laptops*/
+  @media screen and (max-width: 1100px) {
+    font-size: 32px;
+  }
+
+  /* Tablets*/
+  @media screen and (max-width: 992px) {
+    font-size: 30px;
+  }
+
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    font-size: 28px;
+    letter-spacing: .1px;
+  }
+`;
+
+export const SubTitle = styled.h2`
+font-size: 26px;
+align-items: center;
+letter-spacing: .1px;
+line-height: 1.4;
+color: white;
+
+/* Small laptops*/
+@media screen and (max-width: 1100px) {
+  font-size: 23px;
+}
+
+/* Tablets*/
+@media screen and (max-width: 992px) {
+  font-size: 22px;
+}
+
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+  font-size: 20px;
+  letter-spacing: .1px;
+}
+
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+  font-size: 20px;
+  letter-spacing: .1px;
+}
+`;
+
+export const Content = styled.p`
+  font-size: 18px;
+  align-items: center;
+  margin-bottom: 20px;
+  color: white;
+
+  /* Small laptops*/
+  @media screen and (max-width: 1100px) {
+    font-size: 16px;
+  }
+
+  /* Tablets*/
+  @media screen and (max-width: 992px) {
+    font-size: 14px;
+    letter-spacing: .1px;
+    line-height: 1.4;
+  }
+
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    letter-spacing: .1px;
+    line-height: 1.4;
+
+  }
+
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+    font-size: 12px;
+    letter-spacing: .1px;
+    line-height: 1.4;
+
   }
 
 `;

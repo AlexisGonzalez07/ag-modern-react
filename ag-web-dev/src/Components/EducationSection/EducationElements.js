@@ -7,7 +7,7 @@ width: 100%;
   height: auto;
   justify-content: center;
   align-items: center;
-  padding: 20px 15px;
+  padding: 20px 10px;
   display: flex;
 `;
 

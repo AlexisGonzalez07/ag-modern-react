@@ -23,6 +23,7 @@ export const DropdownWrapper = styled.div`
       ". list list ."
       ". list list ."
       ". list list ."
+      ". button button ."
       ". . . .";
     opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
     z-index: 999;
@@ -80,3 +81,28 @@ export const DropDownLink = styled(LinkScroll)`
 
   }
 `;
+
+export const ResumeWrapper = styled.div`
+justify-content: center;
+align-items: center;
+display: grid;
+grid-area: button;
+`
+
+export const ResumeBtn = styled.button`
+background: none;
+padding: 4px 8px;
+margin: 0 0;
+color: white;
+font-size: 24px;
+
+border: 2px solid white;
+border-radius: 3px;
+cursor: pointer;
+:hover{
+  color: #B8AAB9;
+  transition: 200 ease-in-out;
+
+    border: 3px solid #B8AAB9;
+}
+`

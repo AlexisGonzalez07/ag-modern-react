@@ -7,7 +7,7 @@ background-image: linear-gradient(to left, #080808,#222222,#080808);
   height: auto;
   justify-content: center;
   align-items: center;
-  padding: 20px 15px;
+  padding: 20px 10px;
   display: flex;
 `;
 

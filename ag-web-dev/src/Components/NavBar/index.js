@@ -11,20 +11,30 @@ const toggleHome =() => {
   return (
     <Nav>
     <NavBarContainer>
-      <NavLogo onClick={toggleHome}>AG FullStack</NavLogo>
+      <NavLogo to='/' onClick={toggleHome}>AG FullStack</NavLogo>
       <NavMenu>
-        <NavLink to='aboutme' >
+        <NavLink to='aboutme' 
+        smooth={true} duration ={500} spy={true} offset={-80}
+        >
           About Me
         </NavLink>
-        <NavLink to='education'>
+        <NavLink to='education'
+        smooth={true} duration ={500} spy={true} offset={-80} 
+        
+        >
+
           Education
         </NavLink>
-        <NavLink to='projects'>
+        <NavLink to='projects'
+                smooth={true} duration ={500} spy={true} offset={-80}
+                >
           Coding Projects
         </NavLink>
       </NavMenu>
-      <ResumeWrapper>
+      <ResumeWrapper> 
+        <a href='https://drive.google.com/file/d/1u-ELeSqonNLdA6bsyOaV_Ei_lN6zvHk-/view?usp=sharing' target='_blank' rel="noopener noreferrer" style={{all:'none'}}>     
         <ResumeBtn>Resume</ResumeBtn>
+        </a>
       </ResumeWrapper>
       <NavIconBox onClick={toggle}>
         <MdMenu  onClick={toggle}/>

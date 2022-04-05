@@ -17,7 +17,7 @@ export const SectionContainer = styled.div`
   width: 100%;
   max-width: 1300px;
   height: auto;
-  margin: 10px 0;
+  // margin: 10px 0;
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(1);

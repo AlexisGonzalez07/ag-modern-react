@@ -66,8 +66,9 @@ height: 100%;
 margin: 0 0;
 // line-height: 80px;
 
-& .active {
+& . active {
     border-bottom: 2px solid #B8AAB9;
+    color: red;
 }
 :hover{
     color: #B8AAB9;
