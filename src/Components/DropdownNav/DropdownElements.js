@@ -56,7 +56,6 @@ export const List = styled.div`
   display: none;
   @media screen and (max-width: 992px) {
     grid-area: list;
-    //   background: red;
     justify-content: center;
     // padding: 30px;
     display: grid;
@@ -87,6 +86,7 @@ justify-content: center;
 align-items: center;
 display: grid;
 grid-area: button;
+margin-top: 35px;
 `
 
 export const ResumeBtn = styled.button`
